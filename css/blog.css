@@ -4,7 +4,6 @@
 }
 .blog-header {
     line-height: 1;
-    border-bottom: 1px solid #e5e5e5;
   }
   
   .blog-header-logo {
@@ -111,12 +110,19 @@
     margin-bottom: 1.25rem;
     color: #999;
   }
-  
+  .icon_top {
+    width:1.5rem;
+    height:1.5rem;
+    padding: 0.2rem;
+  }
+  .text_logo {
+    color:black;
+  }
   /*
    * Footer
    */
   .blog-footer {
-    padding: 2.5rem 0;
+    padding: 0.5rem 0;
     color: #999;
     text-align: center;
     background-color: black;
