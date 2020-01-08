@@ -14,14 +14,20 @@
     <link href="https://fonts.googleapis.com/css?family=Playfair+Display:700,900" rel="stylesheet">
     <!-- Custom styles for this template -->
 	<link href="/css/blog.css" rel="stylesheet">
+
 	<link href="https://fonts.googleapis.com/css?family=Dancing+Script&display=swap" rel="stylesheet">
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css" rel="stylesheet">
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.js"></script>
+	
+	<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js.map"></script> -->
   </head>
   <body>
     <div class="container">
 	<header class="blog-header py-3">
 	
 		<nav class="navbar navbar-expand-lg navbar-light rounded">
-			<a class="navbar-brand" href="#">TRANGM<b>VO</b></a>
+			<a class="navbar-brand" href="#">TRANG<b>VO</b></a>
 			<button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarsExample09" aria-controls="navbarsExample09" aria-expanded="false" aria-label="Toggle navigation">
 			  <span class="navbar-toggler-icon"></span>
 			</button>
@@ -105,6 +111,9 @@
 		</div>
 	</div>
 	<div id="main-galleries">
+		<div class="row">
+			
+		</div>
 		<div class="row py-2">
 			<div class="col-md-3 title-heading">
 				GALLERIES
@@ -113,27 +122,75 @@
 			</div>
 		</div>
 		<div class="row py-2">
+			
 			<div class="col-md-3" style="padding: 2rem; background-color: #effafe;">
 				
 			</div>
 			<div class="col-md-9" style="padding: 2rem; background-color: #ffdaec;">
-				CIP
+				<a data-toggle="lightbox1" style="cursor: pointer;">CIP</a>
+				<div class="row" style="display: none;">
+					<div class="row justify-content-center">
+						<div class="col-md-8">
+							<div class="row">
+								<a href="/img/CIP-WEB_03.png" data-toggle="lightbox1" id="lightbox1" data-gallery="example-gallery1" class="col-sm-4">
+									<img src="img/CIP-WEB_03.png" class="img-fluid">
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
 			</div>
 		</div>
 		<div class="row py-2">
+			<div class="row justify-content-center" style="display: none;">
+				<div class="col-md-8">
+					<div class="row">
+						<a href="img/MAGAZINE-WEB_03.png" id="lightbox2" data-toggle="lightbox2" data-gallery="example-gallery2" class="col-sm-4">
+							<img src="img/MAGAZINE-WEB_03.png" class="img-fluid">
+						</a>
+						<a href="img/MAGAZINE-WEB_05.png" data-toggle="lightbox2" data-gallery="example-gallery2" class="col-sm-4">
+							<img src="img/MAGAZINE-WEB_05.png" class="img-fluid">
+						</a>
+						<a href="img/MAGAZINE-WEB_10.png" data-toggle="lightbox2" data-gallery="example-gallery2" class="col-sm-4">
+							<img src="img/MAGAZINE-WEB_10.png" class="img-fluid">
+						</a>
+						<a href="img/MAGAZINE-WEB_11.jpg" data-toggle="lightbox2" data-gallery="example-gallery2" class="col-sm-4">
+							<img src="img/MAGAZINE-WEB_11.jpg" class="img-fluid">
+						</a>
+					</div>
+				</div>
+			</div>
 			<div class="col-md-3" style="padding: 2rem; background-color: #effafe;">
 				
 			</div>
 			<div class="col-md-9" style="padding: 2rem; background-color: #ffdaec;">
-				MAGAZIN
+				<a data-toggle="lightbox2" style="cursor: pointer;">MAGAZIN</a>
 			</div>
 		</div>
 		<div class="row py-2">
+			<div class="row justify-content-center" style="display: none;">
+				<div class="col-md-8">
+					<div class="row">
+						<a href="img/TYPO-WEB_03.jpg" id="lightbox3" data-toggle="lightbox3" data-gallery="example-gallery3" class="col-sm-4">
+							<img src="img/TYPO-WEB_03.jpg" class="img-fluid">
+						</a>
+						<a href="img/TYPO-WEB_04.jpg" data-toggle="lightbox3" data-gallery="example-gallery3" class="col-sm-4">
+							<img src="img/TYPO-WEB_04.jpg" class="img-fluid">
+						</a>
+						<a href="img/TYPO-WEB_08.jpg" data-toggle="lightbox3" data-gallery="example-gallery3" class="col-sm-4">
+							<img src="img/TYPO-WEB_08.jpg" class="img-fluid">
+						</a>
+						<a href="img/TYPO-WEB_09.jpg" data-toggle="lightbox3" data-gallery="example-gallery3" class="col-sm-4">
+							<img src="img/TYPO-WEB_09.jpg" class="img-fluid">
+						</a>
+					</div>
+				</div>
+			</div>
 			<div class="col-md-3" style="padding: 2rem; background-color: #effafe;">
 				
 			</div>
 			<div class="col-md-9" style="padding: 2rem; background-color: #ffdaec;">
-				TYPOGRAPHY
+				<a data-toggle="lightbox3" style="cursor: pointer;">TYPOGRAPHY</a>
 			</div>
 		</div>
 	</div>
@@ -166,5 +223,20 @@
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://getbootstrap.com/docs/4.0/assets/js/vendor/popper.min.js"></script>
 <script src="https://getbootstrap.com/docs/4.0/dist/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js"></script>
+<script type="text/javascript">
+	$(document).on('click', '[data-toggle="lightbox1"]', function(event) {
+		event.preventDefault();
+		$('a#lightbox1').ekkoLightbox();
+	});
+	$(document).on('click', '[data-toggle="lightbox2"]', function(event) {
+		event.preventDefault();
+		$('a#lightbox2').ekkoLightbox();
+	});
+	$(document).on('click', '[data-toggle="lightbox3"]', function(event) {
+		event.preventDefault();
+		$('a#lightbox3').ekkoLightbox();
+	});
+</script>
 </body>
 </html>
